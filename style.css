@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.car {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.glass {
+  background-color: rgb(131, 130, 129);
+  width: 360px;
+  height: 100px;
+  position: relative;
+  top: 105px;
+  border-radius: 90px 45px 10px 10px;
+  opacity: 90%;
+}
+
+.body {
+  background-color: blue;
+  width: 400px;
+  height: 230px;
+  border-radius: 120px 60px 0px 0px;
+  border-top: solid black 5px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.left-side,
+.right-side {
+  background-color: rgb(59, 16, 102);
+  width: 250px;
+  height: 150px;
+  border-radius: 40% 0% 20% 20%;
+  top: 85px;
+}
+.left-side {
+  position: relative;
+  left: 80px;
+  z-index: -1;
+}
+.right-side {
+  position: relative;
+  right: 20px;
+  z-index: -2;
+  border-radius: 0px 30px 40px 10px;
+}
+.tires {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.left-tire,
+.right-tire {
+  background-color: black;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  bottom: 1.6cm;
+  position: relative;
+ 
+}
